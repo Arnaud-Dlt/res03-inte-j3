@@ -1,0 +1,41 @@
+html {
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+}
+
+body {
+    background-color:#4455b3;
+}
+
+h1 {
+    color:#0e2872;
+    text-align:center;
+}
+
+main {
+    background-color:#fff;
+    border-radius:15px;
+    height:100vh;
+    margin:30px;
+}
+
+main > section > form > fieldset  {
+    margin:0 40px 0 40px;
+}
+    
+form > fieldset > fieldset {
+    box-shadow:2px 2px 4px #999999;
+    height:20vh;
+    margin-bottom:20px;
+}
+
+form > fieldset > fieldset > h2 {
+    color:#4455b3;
+}
+
+fieldset {
+    border:none;
+    border-radius:5px;
+}
