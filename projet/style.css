@@ -1,0 +1,120 @@
+html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+body {
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color:#d52a54;
+    text-align:center;
+    height:8vh;
+    width:100vw;
+    position:fixed;
+    top:0;
+    z-index:1;
+}
+
+header ul {
+    list-style:none;
+}
+
+header li {
+    color:#fff;
+    display:inline;
+    padding:25px;
+}
+
+header > nav > ul > li a{
+    text-decoration:none;
+    color:#fff;
+}
+
+
+
+/*MAIN*/
+
+section {
+    display:block;
+}
+
+
+/*ACCUEIL*/
+
+#home {
+    background-image:url(teacher.jpeg);
+    background-size:cover;
+}
+
+#home strong {
+    color:#d52a54;
+}
+
+#home h2 {
+    color:#fff;
+    font-size:4em;
+    position:absolute;
+    top:20vh;
+    left:10vw;
+}
+
+#home h3 {
+    color:#fff;
+    font-size:2em;
+    position:absolute;
+    top:41vh;
+    left:10vw;
+}
+
+
+/*A PROPOS*/
+
+#info {
+    position:absolute;
+    top:115vh;
+}
+
+
+#info h2 {
+    text-align:center;
+    font-size:3em;
+    font-weight:100;
+    font-family: 'Bitter', serif;
+}
+
+
+/*LES COURS*/
+
+#cours {
+    position:absolute;
+    top:215vh;
+    width:100vw;
+    background-color:#0b6ccd;
+}
+
+#cours h2 {
+    text-align:center;
+    font-size:3em;
+    color:#fff;
+    font-weight:100;
+    font-family: 'Bitter', serif;
+}
+
+article > h3 {
+    text-transform:uppercase;
+}
+
+/*AGENDA*/
+
+#agenda {
+    position:absolute;
+    top:315vh;
+}
