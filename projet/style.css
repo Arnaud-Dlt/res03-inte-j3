@@ -2,6 +2,7 @@ html {
     font-size: 20px;
     scroll-behavior: smooth;
 }
+
 body {
     margin:0;
     padding:0;
@@ -13,13 +14,14 @@ body {
 
 /*HEADER*/
 
-header {
+body > header {
     background-color:#d52a54;
     text-align:center;
     height:8vh;
     width:100vw;
     position:fixed;
     top:0;
+    left:0;
     z-index:1;
 }
 
@@ -50,7 +52,9 @@ section {
 /*ACCUEIL*/
 
 #home {
-    background-image:url(teacher.jpeg);
+    height:100vh;
+    width:100vw;
+    background-image:url(img/teacher.jpeg);
     background-size:cover;
 }
 
@@ -80,6 +84,8 @@ section {
 #info {
     position:absolute;
     top:115vh;
+    height:100vh;
+    width:100vw;
 }
 
 
@@ -89,6 +95,15 @@ section {
     font-weight:100;
     font-family: 'Bitter', serif;
 }
+#info p {
+    width:25vw;
+    height:30vh;
+}
+#info p:first-of-type {
+    position:absolute;
+    top:120vh;
+    left:10vw;
+}
 
 
 /*LES COURS*/
@@ -96,6 +111,7 @@ section {
 #cours {
     position:absolute;
     top:215vh;
+    height:100vh;
     width:100vw;
     background-color:#0b6ccd;
 }
@@ -108,8 +124,53 @@ section {
     font-family: 'Bitter', serif;
 }
 
-article > h3 {
+#cours > article > header > h3 {
     text-transform:uppercase;
+    text-align:center;
+    color:#fff;
+}
+
+#cours article {
+    background-color:#fff;
+    border-radius:15px;
+    box-shadow:1px 1px 10px rgb(0 0 0 / 50%);
+    height:50vh;
+    width:30vw;
+}
+
+#dev {
+    position:absolute;
+    left:2vw;
+}
+
+#dev header {
+    background-image:url(img/code.jpeg);
+    background-size:cover;
+    height:15vh;
+}
+
+
+#design {
+    position:absolute;
+    left:34vw;
+}
+
+
+#design header {
+    background-image:url(img/design.jpeg);
+    background-size:cover;
+    height:15vh;
+}
+
+#gestion {
+    position:absolute;
+    left:66vw;
+}
+
+#gestion header {
+    background-image:url(img/management.jpeg);
+    background-size:cover;
+    height:15vh;
 }
 
 /*AGENDA*/
@@ -117,4 +178,20 @@ article > h3 {
 #agenda {
     position:absolute;
     top:315vh;
+    height:100vh;
+    width:100vw;
 }
+
+/*CONTACT*/
+
+#contact {
+    position:absolute;
+    top:415vh;
+    height:100vh;
+    width:100vw;
+}
+
+#contact h2 {
+    text-align:center;
+}
+
