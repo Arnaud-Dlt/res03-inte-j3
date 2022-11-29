@@ -96,14 +96,32 @@ section {
     font-family: 'Bitter', serif;
 }
 #info p {
-    width:25vw;
-    height:30vh;
+    width:45vw;
+    height:20vh;
 }
+
 #info p:first-of-type {
     position:absolute;
-    top:120vh;
-    left:10vw;
+    left:5vw;
+    top:20vh;
 }
+
+#info p:nth-of-type(2){
+    position:absolute;
+    top:58vh;
+    left:5vw;
+}
+#info p:nth-of-type(3){
+    position:absolute;
+    left:50vw;
+    top:20vh;
+}
+#info p:last-of-type{
+    position:absolute;
+    top:58vh;
+    left:50vw;
+}
+
 
 
 /*LES COURS*/
@@ -134,7 +152,7 @@ section {
     background-color:#fff;
     border-radius:15px;
     box-shadow:1px 1px 10px rgb(0 0 0 / 50%);
-    height:50vh;
+    height:55vh;
     width:30vw;
 }
 
@@ -144,9 +162,11 @@ section {
 }
 
 #dev header {
+    width: 100%;
+    height: 15vh;
     background-image:url(img/code.jpeg);
     background-size:cover;
-    height:15vh;
+
 }
 
 
@@ -157,9 +177,11 @@ section {
 
 
 #design header {
+    width: 100%;
+    height: 15vh;
     background-image:url(img/design.jpeg);
     background-size:cover;
-    height:15vh;
+    
 }
 
 #gestion {
@@ -168,9 +190,11 @@ section {
 }
 
 #gestion header {
+    width: 100%;
+    height: 15vh;
     background-image:url(img/management.jpeg);
     background-size:cover;
-    height:15vh;
+    
 }
 
 /*AGENDA*/
@@ -181,6 +205,34 @@ section {
     height:100vh;
     width:100vw;
 }
+
+#agenda article {
+    background-color: white;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 30%);
+    position: absolute;
+}
+#agenda article > header {
+    width: 100%;
+    height: 15vh;
+    text-align:center;
+    background-image:url(img/agenda.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#reunion {
+    position:absolute;
+    left:4vw;
+}
+
+#colloque {
+    position:absolute;
+    left:26vw;
+}
+
 
 /*CONTACT*/
 
