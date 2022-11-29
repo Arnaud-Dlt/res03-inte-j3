@@ -1,4 +1,4 @@
-body {
+html {
     height:100vh;
     width:100vw;
     margin:0;
@@ -7,11 +7,47 @@ body {
     font-family : 'Arial', sans-serif;
 }
 
+
+
+/*TITRE*/
 h1 {
-    color:#4455b3;
+    color:#fff;
+    text-shadow:2px 2px 5px #0e2872;
     text-align:center;
     font-weight:bold;
+    font-size:3.5em;
 }
+
+h2 {
+    color:#bbbbbb;
+    text-shadow:2px 2px 5px #0e2872;
+}
+
+/*POSITIONNEMENT*/
+
+#connect {
+    position:absolute;
+    top:18vh;
+    left:10vw;
+    height:40vh;
+    width:35vw;
+}
+
+#sign_up {
+    position:absolute;
+    top:18vh;
+    left:50vw;
+    height:50vh;
+    width:35vw;
+    
+}
+
+section > h2 {
+    text-align:center;
+    font-size:2.5em;
+}
+
+/*FORM*/
 
 fieldset {
     margin:0 40px 0 40px;
@@ -19,25 +55,22 @@ fieldset {
 }
 
 form {
-    height:50vh;
-    width:35vw;
     background-color:#fff;
     border-radius:7px;
-    position:absolute;
-    left:32vw;
-    top:25vh;
     box-shadow:3px 3px 10px #0e2872;
 }
+
 label {
     font-size:0.8em;
     font-weight:bold;
 }
+
 .input_txt {
     background-color:#c2cae8;
     border:none;
     border-radius:3px;
     height:25px;
-    width:250px;
+    width:20vw;
 }
 
 button {

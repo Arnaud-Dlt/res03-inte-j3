@@ -10,10 +10,12 @@
     
 <body>
     <main>
-        <header></header>
-        
+        <header>
+            <h1>Finaliser la commande</h1>
+        </header>
+        <section id="connect">
+        <h2>Connexion</h2>
         <form method="post">
-            <h1>Connexion</h1>
                <fieldset> 
                    <fieldset>
                         <label>Email</label>
@@ -28,6 +30,37 @@
                     </fieldset>
                 </fieldset>
         </form>
+        </section>
+        <section id="sign_up">
+        <h2>Inscription</h2>
+        <form method="post">
+                <fieldset> 
+                   <fieldset>
+                        <label>Nom</label>
+                            <input type="text" class="input_txt"/>
+                    </fieldset> 
+                    <fieldset>
+                        <label>Prenom</label>
+                            <input type="text" class="input_txt"/>
+                    </fieldset>
+                    <fieldset>
+                        <label>Email</label>
+                            <input type="email" class="input_txt"/>
+                    </fieldset>
+                    <fieldset>
+                        <label>Mot de passe</label>
+                            <input type="password" class="input_txt"/>
+                    </fieldset> 
+                    <fieldset>
+                        <label>Confirmer le mot de passe</label>
+                            <input type="password" class="input_txt"/>
+                    </fieldset>
+                    <fieldset>
+                        <button type="button">S'inscrire</button>
+                    </fieldset>
+                </fieldset>
+        </form>
+        </section>
     </main>
 </body>
 </html>
